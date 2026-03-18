@@ -1,0 +1,5 @@
+ALTER TABLE Student
+ADD PRIMARY KEY (std_id);
+
+ALTER TABLE Student
+DROP PRIMARY KEY;
