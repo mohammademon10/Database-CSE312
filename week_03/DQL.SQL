@@ -23,15 +23,18 @@ WHERE name = 'Bangladesh';
 SELECT * FROM countries
 WHERE area > 50000;
 
---AND operator
+--AND operator-( all conditions must be true)
+--show the details of those countries which is greater than 50000 and less than 100000.
 SELECT * FROM countries
 WHERE area > 50000 AND area < 100000;
 
 --BETWEEN operator( two values and range)
+--show the details of those countries which is greater than 50000 and less than 100000.
 SELECT * FROM countries
 WHERE  area BETWEEN 50000 AND 100000;
 
 --NOT BETWEEN operator(Should not be in the range)
+--show the details of those countries which is not greater than 50000 and less than 100000.
 SELECT * FROM countries
 WHERE  area NOT BETWEEN 50000 AND 100000;
 
